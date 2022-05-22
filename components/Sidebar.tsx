@@ -19,7 +19,10 @@ const Sidebar = () => {
                     <GoLocation />
                     <span>경기도 고양시</span>
                 </div>
-                <p className={"my-2"}>tigerlove95@naver.com</p>
+                <button className={"focus:outline-none"}
+                        onClick={() => {window.open("mailto:tigerlove95@naver.com")}}>
+                    <p className={"my-2"}>tigerlove95@naver.com</p>
+                </button>
                 <p className={"my-2"}>+82 1066112574</p>
             </div>
             <button className={"bg-gradient-to-r from-green-400 to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2"}>Toggle</button>
