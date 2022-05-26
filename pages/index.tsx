@@ -2,6 +2,7 @@ import {services} from "../data"
 import {GetServerSidePropsContext} from "next";
 
 const index = ({services}) => {
+    console.log(services);
   return (
       <div>
         <h1>Hello World!</h1>
